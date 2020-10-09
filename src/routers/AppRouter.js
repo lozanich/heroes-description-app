@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { AuthContext } from "../auth/AuthContext";
 import { LoginScreen } from "../components/login/LoginScreen";
 import { DashBoardRoutes } from "./DashBoardRoutes";
+import { PrivateRouter } from "./PrivateRouter";
+import { PublicRouter } from "./PublicRouter";
 
 export const AppRouter = () => {
+  const { user } = useContext(AuthContext);
+  const { logged } = user;
+
+  console.log(user);
+
   return (
     <Router>
       <div>
@@ -18,9 +26,9 @@ export const AppRouter = () => {
           <Route path="/dc">
             <DcScreen />
           </Route> */}
-          <Route exact path="/login" component={LoginScreen} />
+          <PublicRouter isAuth={logged} path="/login" component={LoginScreen} />
 
-          <Route path="/" component={DashBoardRoutes} />
+          <PrivateRouter isAuth={logged} path="/" component={DashBoardRoutes} />
         </Switch>
       </div>
     </Router>
