@@ -10,7 +10,7 @@ export const AppRouter = () => {
   const { user } = useContext(AuthContext);
   const { logged } = user;
 
-  console.log(user);
+  // console.log(user);
 
   return (
     <Router>
@@ -26,7 +26,12 @@ export const AppRouter = () => {
           <Route path="/dc">
             <DcScreen />
           </Route> */}
-          <PublicRouter isAuth={logged} path="/login" component={LoginScreen} />
+          <PublicRouter
+            isAuth={logged}
+            component={LoginScreen}
+            exact
+            path="/login"
+          />
 
           <PrivateRouter isAuth={logged} path="/" component={DashBoardRoutes} />
         </Switch>

@@ -7,6 +7,7 @@ export const LoginScreen = ({ history }) => {
 
   const handleLogin = () => {
     // history.push("/marvel");
+    const lastPath = localStorage.getItem("lastPath") || "/";
     const action = {
       type: types.login,
       payload: {
@@ -16,7 +17,7 @@ export const LoginScreen = ({ history }) => {
     };
 
     dispatch(action);
-    history.replace("/marvel");
+    history.replace(lastPath);
   };
 
   return (
