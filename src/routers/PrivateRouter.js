@@ -4,6 +4,10 @@ import { Redirect, Route } from "react-router-dom";
 
 export const PrivateRouter = ({ isAuth, component: Component, ...rest }) => {
   //   console.log(rest.location.pathname);
+  // console.log(rest);
+
+  // rest son el resto de los elementos o propiedades que se pasan como argumento
+  // atravez de las props
 
   localStorage.setItem("lastPath", rest.location.pathname);
 
