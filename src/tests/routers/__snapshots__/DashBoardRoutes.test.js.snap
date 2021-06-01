@@ -1,0 +1,541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <DashBoardRoutes /> Debe de mostrar correctamente 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Asociaciones
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Marvel
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/searchhero"
+          onClick={[Function]}
+        >
+          Buscar heroe
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        />
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    Array [
+      <h1>
+        Marvel
+      </h1>,
+      <hr />,
+      <div
+        className="card-columns"
+      >
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Spider Man"
+            className="card-img-top"
+            src="./assets/heroes/marvel-spider.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Spider Man
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                Amazing Fantasy #15
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-spider"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Captain America"
+            className="card-img-top"
+            src="./assets/heroes/marvel-captain.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Captain America
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                Captain America Comics #1
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-captain"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Iron Man"
+            className="card-img-top"
+            src="./assets/heroes/marvel-iron.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Iron Man
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                Tales of Suspense #39
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-iron"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Thor"
+            className="card-img-top"
+            src="./assets/heroes/marvel-thor.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Thor
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                Journey into Myster #83
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-thor"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Hulk"
+            className="card-img-top"
+            src="./assets/heroes/marvel-hulk.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Hulk
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                The Incredible Hulk #1
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-hulk"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Wolverine"
+            className="card-img-top"
+            src="./assets/heroes/marvel-wolverine.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Wolverine
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                The Incredible Hulk #180
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-wolverine"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Daredevil"
+            className="card-img-top"
+            src="./assets/heroes/marvel-daredevil.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Daredevil
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                Daredevil #1
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-daredevil"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Hawkeye"
+            className="card-img-top"
+            src="./assets/heroes/marvel-hawkeye.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Hawkeye
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                Tales of Suspense #57
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-hawkeye"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Cyclops"
+            className="card-img-top"
+            src="./assets/heroes/marvel-cyclops.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Cyclops
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                X-Men #1
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-cyclops"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+        <div
+          className="card animate__animated animate__jello"
+          style={
+            Object {
+              "maxWidth": 500,
+              "minHeight": 840,
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Silver Surfer"
+            className="card-img-top"
+            src="./assets/heroes/marvel-silver.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Silver Surfer
+            </h5>
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                Marvel Comics
+              </li>
+              <li
+                className="list-group-item"
+              >
+                The Fantastic Four #48
+              </li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="/hero/marvel-silver"
+              onClick={[Function]}
+            >
+              Detalles
+            </a>
+          </div>
+        </div>
+      </div>,
+    ]
+  </div>,
+]
+`;

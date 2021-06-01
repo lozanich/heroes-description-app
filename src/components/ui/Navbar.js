@@ -10,7 +10,7 @@ export const Navbar = () => {
   const history = useHistory();
 
   const handleLogout = () => {
-    // console.log("logged out", history);
+    // console.log(history);
     const action = {
       type: types.logout,
     };

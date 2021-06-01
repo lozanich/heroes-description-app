@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <SearchScreen /> Debe de mostar a batman y el input con el query string 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        className="form-group"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="nameHero"
+          onChange={[Function]}
+          placeholder="Find your Hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search....
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="card animate__animated animate__jello"
+        style={
+          Object {
+            "maxWidth": 500,
+            "minHeight": 840,
+            "width": "18rem",
+          }
+        }
+      >
+        <img
+          alt="Batman"
+          className="card-img-top"
+          src="./assets/heroes/dc-batman.jpg"
+        />
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Batman
+          </h5>
+          <ul
+            className="list-group list-group-flush"
+          >
+            <li
+              className="list-group-item"
+            >
+              DC Comics
+            </li>
+            <li
+              className="list-group-item"
+            >
+              Detective Comics #27
+            </li>
+          </ul>
+          <a
+            className="btn btn-primary"
+            href="/hero/dc-batman"
+            onClick={[Function]}
+          >
+            Detalles
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en el componente <SearchScreen /> Debe de mostrarse correctamente con valores por defecto  1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        className="form-group"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="nameHero"
+          onChange={[Function]}
+          placeholder="Find your Hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search....
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Busca un Heroe
+      </div>
+    </div>
+  </div>
+</div>
+`;

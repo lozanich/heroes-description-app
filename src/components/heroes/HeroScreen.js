@@ -1,22 +1,21 @@
 import React, { useMemo } from "react";
 import { Redirect, useParams } from "react-router-dom";
 import { getHeroById } from "../../selectors/getHeroById";
+// import batman from "../../assets/heroes/dc-batman.jpg"; // contenido estatico
+
+const heroImages = require.context("../../assets/heroes", true);
 
 export const HeroScreen = ({ history }) => {
   const { heroeId } = useParams();
   const hero = useMemo(() => getHeroById(heroeId), [heroeId]);
   // const hero = getHeroById(heroeId);
+  console.log(heroeId);
 
   if (!hero) {
     return <Redirect to="/" />;
   }
-  const {
-    superhero,
-    publisher,
-    alter_ego,
-    first_appearance,
-    characters,
-  } = hero;
+  const { superhero, publisher, alter_ego, first_appearance, characters } =
+    hero;
 
   const handleReturn = () => {
     // console.log(history);
@@ -33,7 +32,9 @@ export const HeroScreen = ({ history }) => {
       <div className="col-4">
         <img
           className="img-thumbnail"
-          src={`../assets/heroes/${heroeId}.jpg`}
+          // src={`../assets/heroes/${heroeId}.jpg`} // desde public assets
+          // src={batman} // cuando tenemos un import
+          src={heroImages(`./${heroeId}.jpg`)}
           alt={superhero}
         />
       </div>
